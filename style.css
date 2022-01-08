@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(29, 2, 2);
+}
+
+.header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-attachment: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    border-bottom: dashed #fff;
+}
+
+.header-logo img{
+    width: 12rem;
+    margin-left: 20rem;
+    margin-top: 2rem;   
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+.header-components a{
+    font-size: large;
+    margin: 2rem;
+    margin-top: 5rem;
+    color: #fff;
+    
+}
+
+.header-icons{
+    font-size: xx-large;
+    color: #fff;
+    margin: 2rem;
+    padding: 4rem;
+    margin-right: 20rem;
+    cursor: pointer;
+}
+
+.header-components a:hover{
+    color: burlywood;
+    border-bottom: .1rem;   
+    text-decoration: underline;
+}
+
+.header-icons div:hover{
+    color: burlywood;
+}
+
+.header-icons div{
+    margin: 1rem;
+}
+
+#menu-btn{
+    display: none;
+}
+
+.search-form{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: xx-large;
+    position: -webkit-sticky;
+    /* background: #fff; */
+    margin-right: 1rem;
+    top: 115%;
+    right: 7%;
+    display: flex;  
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.search-form input{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    font-size: 1.6rem;
+    padding: 1rem;
+    align-items: center;
+    
+}
+
+.main-beans{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.main-arabica-bean{
+    margin: 2rem;
+    background: #fff;
+}
+
+.main-arabica-bean-image img{
+    width: 31rem;
+}   
+
+.main-arabica-bean-nameandrates{
+        color: black;
+        font-size: xx-large;
+        align-items: center;
+
+}
+
+.main-arabica-bean-nameandrates span{
+    margin-right: 2rem;
+}
+
+.main-arabica-bean-nameandrates span:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main-robusta-bean{
+    margin: 2rem;
+    background: #fff;
+}
+.main-robusta-bean-image img{
+    width: 38rem;
+}   
+
+.main-robusta-bean-nameandrates{
+        color: #000;
+        font-size: xx-large;
+        align-items: center;
+}
+
+.main-robusta-bean-nameandrates span{
+    margin-right: 2rem;
+}
+
+.main-robusta-bean-nameandrates span:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main-liberica-bean{
+    margin: 2rem;
+    background: #fff;
+}
+.main-liberica-bean-image img{
+    width: 32rem;
+}   
+
+.main-liberica-bean-nameandrates{
+        color: black;
+        font-size: xx-large;
+        align-items: center;
+
+}
+
+.main-liberica-bean-nameandrates span{
+    margin-right: 2rem;
+}
+
+.main-liberica-bean-nameandrates span:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main-checkout{
+    font-size: xx-large;
+    margin-left: 45%;
+}
+
+.main-checkout button{
+    background: rgb(131, 89, 11);
+}
+
+.main-checkout button:hover{
+    cursor: pointer;
+    color:  white;
+}
+
+.search-form label{
+    background: #fff;
+    font-size: xx-large;
+}
+
+.search-form label:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
