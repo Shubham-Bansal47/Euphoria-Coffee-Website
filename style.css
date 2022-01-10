@@ -1,5 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
 
+.adjust1{
+    width: 37rem;
+    margin: 2rem;
+    background: #fff;
+}
+.adjust2{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+.adjust3{
+    width: 100%;
+    height: 100%;
+}
+.adjust4:hover{
+    color: burlywood;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.adjust5{
+    color: black;
+    font-size: xx-large;
+    align-items: center;
+}
+.adjust5 span{
+    margin-right: 2rem;
+}
+.adjust5 span:hover{
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.adjust6 button{
+    background: rgb(131, 89, 11);
+    border-radius: 1rem;
+}
+.adjust6 p{
+    font-size: x-large;
+    margin: 0.5rem;
+}
+.adjust6 p:hover{
+    cursor: pointer;
+    color:  white;
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,39 +52,39 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
     scroll-behavior: smooth;
     scroll-padding-top: 9rem;
     overflow-x: hidden;
     font-size: 62.5%;
 }
-
 body{
     background-color: rgb(20, 1, 1);
 }
-
 .header{
     
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-attachment: fixed; */
     top: 0; left: 0; right: 0;
     z-index: 1000;
     border-bottom: dashed #fff;
     position: fixed;
     background: rgb(20, 1, 1);
+    opacity: 0;
 }
-
+.header:hover{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
 .header-logo img{
     width: 12rem;
     margin-left: 20rem;
     margin-top: 2rem;   
     margin-right: 4rem;
     margin-bottom: 2rem;
+    border: 0.4rem solid #eecab1;
 }
-
 .header-components a{
     font-size: large;
     margin: 2rem;
@@ -48,7 +92,6 @@ body{
     color: #fff;
     
 }
-
 .header-icons{
     font-size: xx-large;
     color: #fff;
@@ -57,300 +100,176 @@ body{
     margin-right: 20rem;
     cursor: pointer;
     display: flex;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
-
 .header-components a:hover{
     color: burlywood;
     border-bottom: .1rem;   
     text-decoration: underline;
 }
-
 .header-icons div:hover{
     color: burlywood;
 }
-
 .header-icons div{
     margin: 1rem;
     align-items: center;
 }
-
+#cart-btn,#search-btn{
+    display: flex;
+}
 .sign-up{
     margin-bottom: 5rem;
 }
-
 .sign-up button{
-    background: orangered;
+    background: #eecab1;
     border-radius: 1rem;
 }
-
 .sign-up button p{
     font-size: x-large;
     margin: 0.5rem;
 }
-
 .sign-up button:hover{
-    color: #fff;
+    color: rgb(148, 82, 6);
     cursor: pointer;
 }   
-
 .main-home{
-    margin: 3rem;
-    margin-top: 14%;
+    width: 100%;
+    margin-top: 6rem;
     display: inline-flex;
+    justify-content: center;
+}   
+.main-home div{
+    margin-left: 2rem;
 }
-
-.main-home-image{
-    margin-left: 16%;
-    margin-right: 4%;
+.main-home1{
+    margin-top: 7rem;
 }
-
+.main-home1 span{
+    color: green;
+    font-size: xx-large;
+    margin-left: 43%;
+}
 .main-home-image img{
-    width: 95rem;
+    width: 70rem;
+    border: 0.4rem solid #eecab1;
 }
-
 .main-home-text{
-    width: 500px;
+    width: 25%;
 }
-
 .main-home-text-headline{
     color: #fff;
     font-size: x-large;
     align-items: flex-end;
 }
-
-.main-home-text-headline:hover{
-    color: burlywood;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 .main-home-text-important{
     color: #fff;
     margin-top: 2rem;
     font-size: large;
 }
-
-.main-home-text-important:hover{
-    cursor: pointer;
-    color: burlywood;
-    text-decoration: underline;
-}
-
 .main-home-page-text-button button{
-    background: rgb(131, 89, 11);
     margin: 3rem;
     margin-left: 6rem;
-    border-radius: 1rem;
 }
-
-.home-text-button p{
-    font-size: x-large;
-    margin: 0.7rem;
+.aboutus-text span{
+    color: green;
+    font-size: xx-large;
+    margin-left: 45%;
 }
-
-.main-home-page-text-button button:hover{
+.main-aboutus{
+    display: flex;
+    justify-content: center;
+}
+.main-aboutus-text{
+    width: 25%;
+    margin: 3rem;
+    margin-top: 6rem;
+}
+.main-aboutus-text-head p{
     color: #fff;
-    cursor: pointer;
+    font-size: x-large;
 }
-
+.main-aboutus-text-text p{
+    color: #fff;
+    font-size: large;
+    margin-top: 1rem;
+}
+.main-aboutus-text-quality li{
+    color: #fff;
+    font-size: large;
+}
+.main-aboutus-text-quality ol{
+    margin-top: 1rem;
+}
+.main-aboutus-text-learn{
+    margin: 2rem;
+    justify-items: center;
+    margin-left: 9rem;
+}
+.main-aboutus-image{
+    margin-top: 4rem;
+    width: 67rem;
+    height: 38rem;
+    position: relative;
+    overflow: hidden;
+}
+.main-aboutus-image img{
+    width: 63rem; 
+    border: 0.4rem solid #eecab1;
+    width: 100%;
+    height: 100%;
+}
+.transition{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    opacity: 0;
+    transition:opacity 0.5s ease;
+}
+.transition:hover{
+    opacity: 1;
+}
+.main-products-text{
+    margin-left: 45%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.main-products-text span{
+    color: green;
+    font-size: xx-large;
+}
 .main-beans{
     display: flex;
     justify-content: center;
     padding: 1rem;
 }
-
-.main-arabica-bean{
-    margin: 2rem;
-    background: #fff;
+.main-beans div{
+    border: 0.2rem solid #eecab1;
 }
-
-.main-arabica-bean-image img{
-    width: 31rem;
-}   
-
-.main-arabica-bean-nameandrates{
-        color: black;
-        font-size: xx-large;
-        align-items: center;
-}
-
-.main-arabica-bean-nameandrates span{
-    margin-right: 2rem;
-}
-
-.main-arabica-bean-nameandrates span:hover{
-    color: green;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.main-robusta-bean{
-    margin: 2rem;
-    background: #fff;
-}
-.main-robusta-bean-image img{
-    width: 38rem;
-}   
-
-.main-robusta-bean-nameandrates{
-        color: #000;
-        font-size: xx-large;
-        align-items: center;
-}
-
-.main-robusta-bean-nameandrates span{
-    margin-right: 2rem;
-}
-
-.main-robusta-bean-nameandrates span:hover{
-    color: green;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.main-liberica-bean{
-    margin: 2rem;
-    background: #fff;
-}
-.main-liberica-bean-image img{
-    width: 32rem;
-}   
-
-.main-liberica-bean-nameandrates{
-        color: black;
-        font-size: xx-large;
-        align-items: center;
-
-}
-
-.main-liberica-bean-nameandrates span{
-    margin-right: 2rem;
-}
-
-.main-liberica-bean-nameandrates span:hover{
-    color: green;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
+.main-beans2 div{
+    border: 0.2rem solid #eecab1;
+} 
 .main-beans2{
     display: flex;
     justify-content: center;
     padding: 1rem;
 }
-
-.main-excelsa-bean{
-    margin: 2rem;
-    background: #fff;
-}
-
-.main-excelsa-bean-image img{
-    width: 36rem;
-}   
-
-.main-excelsa-bean-nameandrates{
-        color: black;
-        font-size: xx-large;
-        align-items: center;
-}
-
-.main-excelsa-bean-nameandrates span{
-    margin-right: 2rem;
-}
-
-.main-excelsa-bean-nameandrates span:hover{
-    color: green;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.main-caniphora-bean{
-    margin: 2rem;
-    background: #fff;
-}
-.main-caniphora-bean-image img{
-    width: 38rem;
-}   
-
-.main-caniphora-bean-nameandrates{
-        color: #000;
-        font-size: xx-large;
-        align-items: center;
-}
-
-.main-caniphora-bean-nameandrates span{
-    margin-right: 2rem;
-}
-
-.main-caniphora-bean-nameandrates span:hover{
-    color: green;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.main-australian-bean{
-    margin: 2rem;
-    background: #fff;
-}
-.main-australian-bean-image img{
-    width: 33.9rem;
-}   
-
-.main-australian-bean-nameandrates{
-        color: black;
-        font-size: xx-large;
-        align-items: center;
-
-}
-
-.main-australian-bean-nameandrates span{
-    margin-right: 2rem;
-}
-
-.main-australian-bean-nameandrates span:hover{
-    color: green;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 .main-checkout{
     margin-left: 45%;
 }
-
-.main-checkout button{
-    background: rgb(131, 89, 11);
-    border-radius: 1rem;
-}
-
-.main-checkout button:hover{
-    cursor: pointer;
-    color:  white;
-}
-
-.checkout-btn p{
-    font-size: x-large;
-    margin: 0.5rem;
-}
-
 .search-form label{
     background: #fff;
     font-size: xx-large;
 }
-
 .search-form label:hover{
     color: green;
     text-decoration: underline;
 }
-
 html::-webkit-scrollbar{
     width: .8rem;
 }
-
 html::-webkit-scrollbar-track{
     background: transparent;
 }
-
 html::-webkit-scrollbar-thumb{
     background: #fff;
     border-radius: 5rem;
