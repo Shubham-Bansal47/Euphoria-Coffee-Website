@@ -318,8 +318,53 @@ body{
     font-size: x-large;
     margin-bottom: 3rem;
 }
+.main-contactus{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
 .contactus{
     margin-top: 3rem;
+}
+.google-maps{
+    margin-right: 4rem;
+    border: 0.4rem solid #eecab1;
+}
+.contactus-details{
+    margin-left: 4rem;
+}
+.touch{
+    display: flex;
+    justify-content: center;
+}
+.touch p{
+    color: #fff;
+    font-size: xx-large;
+}
+.adjust9{
+    margin-top: 2rem;
+}
+.adjust9 div{
+    margin: 2rem;
+}
+.adjust9 span{
+    color: #fff;
+    font-size: x-large;
+    display: flex;
+}
+.adjust9 input{
+    font-size: x-large;
+    margin-left: 2rem;
+    display: flex;
+    background-color: black;
+    color: #fff;
+}
+.adjust9 button{
+    margin-right: 1rem;
+}
+.contactus-submit{
+    display: flex;
+    justify-content: center;
 }
 .search-form label{
     background: #fff;
