@@ -108,6 +108,7 @@ body{
     cursor: pointer;
     display: flex;
     margin-top: 2rem;
+    justify-content: flex-end;
 }
 .header-components a:hover{
     color: burlywood;
@@ -251,6 +252,74 @@ body{
 .reviews{
     margin-top: 4rem;
     margin-bottom: 2rem;
+}
+.main-review{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+}
+.adjust8{
+    width: 25%;
+    border: 0.4rem solid #eecab1;
+    margin: 1rem;
+}
+.adjust8:hover{
+    cursor: pointer;
+}
+.review-symbol{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.review-symbol p{
+    font-size: xx-large;
+}
+.review-text{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.review-text p{
+    color: white;
+    font-size: medium;
+    width: 70%;
+}
+.review-text p:hover{
+    color: burlywood;
+    text-decoration: underline;
+}
+.review-image{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.review-image img{
+    width: 100%;
+    height: 100%;
+    width: 8rem;
+    border-radius: 50%;
+}
+.review-name{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.review-name p{
+    color: #fff;
+    font-size: large;
+}
+.review-star{
+    display: flex;
+    justify-content: center;
+}
+.review-star p{
+    color: burlywood;
+    font-size: x-large;
+    margin-bottom: 3rem;
+}
+.contactus{
+    margin-top: 3rem;
 }
 .search-form label{
     background: #fff;
