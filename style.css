@@ -367,6 +367,49 @@ body{
     display: flex;
     justify-content: center;
 }
+.footer{
+    border-top: dashed #fff;
+    margin-top: 4rem;
+}
+.adjust10{
+    width: 3%;
+    height: 3%;
+}
+.footer-icons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.footer-icons img{
+    height: 100%;
+    width: 100%;
+}
+.footer-icons div{
+    margin-right: 2rem;
+}
+.footer-text{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.footer-text p{
+    color: #fff;
+    font-size: large;
+    margin-right: 4rem;
+}
+.final{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.final p{
+    color: #fff;
+    font-size: large;
+}
+.nickname{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
 .search-form label{
     background: #fff;
     font-size: xx-large;
