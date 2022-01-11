@@ -332,6 +332,7 @@ body{
 }
 .contactus-details{
     margin-left: 4rem;
+    border: 0.3rem solid #eecab1;
 }
 .touch{
     display: flex;
