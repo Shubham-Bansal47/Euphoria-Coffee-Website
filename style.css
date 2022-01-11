@@ -22,10 +22,11 @@
 .adjust5{
     color: black;
     font-size: xx-large;
-    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 .adjust5 span{
-    margin-right: 2rem;
+    margin-top: 0.3rem;
 }
 .adjust5 span:hover{
     color: green;
@@ -43,6 +44,12 @@
 .adjust6 p:hover{
     cursor: pointer;
     color:  white;
+}
+.adjust7{
+    color: green;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
 }
 *{
     margin: 0;
@@ -144,11 +151,6 @@ body{
 .main-home1{
     margin-top: 7rem;
 }
-.main-home1 span{
-    color: green;
-    font-size: xx-large;
-    margin-left: 43%;
-}
 .main-home-image img{
     width: 70rem;
     border: 0.4rem solid #eecab1;
@@ -169,11 +171,6 @@ body{
 .main-home-page-text-button button{
     margin: 3rem;
     margin-left: 6rem;
-}
-.aboutus-text span{
-    color: green;
-    font-size: xx-large;
-    margin-left: 45%;
 }
 .main-aboutus{
     display: flex;
@@ -229,13 +226,8 @@ body{
     opacity: 1;
 }
 .main-products-text{
-    margin-left: 45%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-}
-.main-products-text span{
-    color: green;
-    font-size: xx-large;
 }
 .main-beans{
     display: flex;
@@ -255,6 +247,10 @@ body{
 }
 .main-checkout{
     margin-left: 45%;
+}
+.reviews{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 .search-form label{
     background: #fff;
