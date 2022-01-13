@@ -1,5 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
 
+.signup{
+    border: 0.5rem solid #eecab1;
+    width: 30%;
+    height: 57rem;
+    position: absolute;
+    top: 17rem;
+    left: 63%;
+    background-color: #fff;
+    opacity: 0;
+}
+.adjust11{
+    border: 0.1rem solid black;
+    border-radius: 0.3rem;
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 15%;
+}
+.remember{
+    font-size: large;
+    margin-top: 2rem;
+    margin-left: 30%;
+    margin-bottom: 4rem;
+}
+.remember input{
+    margin-right: 1rem;
+}
+.adjust12{
+    margin-top: 1rem;
+    margin-left: 30%;
+}
+.adjust12 button{
+    background-color: green;
+    border-radius: 1rem;
+}
+.adjust12 p{
+    font-size: x-large;
+    margin: 1rem;
+}
+.signbar{
+    font-size: xx-large;
+    margin-top: 4rem;
+    margin-left: 30%;
+    margin-bottom: 4rem;
+    text-decoration: underline;
+}
+.signup input{
+    font-size: x-large;
+}
 .adjust1{
     width: 37rem;
     margin: 2rem;
